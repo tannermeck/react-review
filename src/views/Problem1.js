@@ -19,7 +19,7 @@ export default function Problem1() {
         <Shape color="green" type="circle" small setSelectedColor={setSelectedColor} />
       </div>
       <div className="selected-shape">
-        <Shape color={selectedColor} type="circle" setSelectedColor={setSelectedColor}></Shape>
+        <Shape color={selectedColor} type="circle"></Shape>
       </div>
     </div>
   );
