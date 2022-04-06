@@ -3,5 +3,5 @@ import './Shape.css';
 
 export default function Shape(props) {
   const classes = `shape ${props.type} ${props.color} ${props.small ? 'small' : ''}`;
-  return <div className={classes}></div>;
+  return <div className={classes} onClick={() => props.setSelectedColor(props.color)}></div>;
 }
